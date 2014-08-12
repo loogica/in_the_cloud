@@ -11,6 +11,12 @@ with process_unit() as instance:
     instance.send_run('ml.py')
 ```
 
+## Install dependencies
+
+```
+$ pip install -r requirements.txt
+```
+
 ## First Step
 
 Configure a `.env` file in the root dir
